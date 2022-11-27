@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/txtname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="file name"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/downloadviewimage" />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/fileFrameDownloadListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="240p"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="0.8"
+                android:id="@+id/fileSizeDownloadListItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Size"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText" />
+
+            <CheckBox
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:id="@+id/checkboxlist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:background="@android:color/transparent"
+                android:button="@drawable/downlaod_check_btn"
+                android:gravity="center"
+
+                />
+            <Button
+                android:layout_margin="4dp"
+                android:foreground="@android:color/transparent"
+                android:layout_weight="1.2"
+                android:id="@+id/downloadBtnDownloadList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/ic_file_download_green"
+                android:button="@drawable/downlaod_check_btn"
+                android:gravity="center"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btncancelcustome"
+            android:layout_width="170dp"
+            android:layout_height="35dp"
+            android:background="@drawable/downloadandcustmbtn"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/btndownloadcustome"
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="29dp"
+            android:background="@drawable/downloadandcustmbtn"
+            android:text="Download" />
+    </LinearLayout>
+    <View
+        android:background="@color/accent_green"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A1A">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/images_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/md_grey_900"
+            app:cardCornerRadius="10dp"
+            android:layout_marginRight="15dp">
+
+            <LinearLayout
+                android:layout_width="99dp"
+                android:layout_height="99dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/image_icon" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/md_grey_900"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/videos_btn">
+
+            <LinearLayout
+                android:layout_width="99dp"
+                android:layout_height="99dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/video_icon" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/container">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="65dp"
+            android:text="Images"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Videos"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold">
+
+
+        </TextView>
+    </LinearLayout>
+
+    <!--<FrameLayout
+        android:id="@+id/fragmentContainerImages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1A1A1A"/>-->
+    <!--    <com.google.android.material.button.MaterialButtonToggleGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/toggleButtonGroup"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            app:singleSelection="true">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnWhatsAppImages"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                app:iconTint="@color/white"
+                app:iconGravity="textStart"
+                android:selectAllOnFocus="true"
+                app:icon="@drawable/ic_baseline_image_24"
+                android:textColor="@color/white" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnWhatsAppVideos"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                app:iconTint="@color/white"
+                app:iconGravity="textStart"
+                app:icon="@drawable/ic_baseline_video_library_24"
+                android:textColor="@color/white" />
+
+        </com.google.android.material.button.MaterialButtonToggleGroup>-->
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#1A1A1A">
+
+    <Button
+        android:id="@+id/btnhd"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="10pt"
+        android:layout_marginRight="10pt"
+        android:layout_gravity="center"
+        android:background="@drawable/new_btn_background"
+        android:gravity="center"
+
+        android:text="Download in HD"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_sd"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="10pt"
+        android:layout_marginRight="10pt"
+        android:layout_gravity="center"
+        android:background="@drawable/new_btn_background"
+        android:gravity="center"
+
+        android:text="Download in sd"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FF0000FF"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

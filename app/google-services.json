@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "135762893936",
+    "project_id": "vidde-67836",
+    "storage_bucket": "vidde-67836.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135762893936:android:c8b52bc11576964fdd28b5",
+        "android_client_info": {
+          "package_name": "com.devphics.vidde"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135762893936-2qne86if7ftmg75jlmq20e920jso8q2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2LBBPLr69hwl9BXV5jIgZrD9Pur0vdwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135762893936-2qne86if7ftmg75jlmq20e920jso8q2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

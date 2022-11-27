@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.onBoardingActivity"
+    android:weightSum="2"
+    android:orientation="vertical"
+    >
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_weight="0.35"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+
+       android:gravity="center"
+        android:layout_weight="1.65"
+        android:id="@+id/dotsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/nextOnBoarding"
+            android:text="Next"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+
+            android:textColor="@color/white"
+            android:layout_weight=".5"
+            android:background="@drawable/next_button"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_weight="1.7"
+            android:id="@+id/ivdots"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+
+            android:src="@drawable/page1dot"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

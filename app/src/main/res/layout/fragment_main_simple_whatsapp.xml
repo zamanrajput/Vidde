@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WhatsApp.WhatsAppFragments.SimpleMainWhatsAppFragment">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayoutS"
+        style="@style/CustomTabLayout"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+
+        >
+
+        <com.google.android.material.tabs.TabItem
+
+            android:id="@+id/VideoTabS"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:text="Videos" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/ImageTabS"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:text="Images" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/ViewPagerS"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp" />
+
+
+</LinearLayout>

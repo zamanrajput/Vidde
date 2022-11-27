@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">VIDDE</string>
+    <string name="splash_descp">Download your favorite videos across different social media like Facebook, Whatsapp, Instagram and Twitter</string>
+    <string name="about_us_des">VidDe is one of the smartest creations at the current time. We are offering you the all in one downloader app that brings you utility and comfort. It eliminates your need of having multiple downloaders to get videos and images from social connecting apps like WhatsApp, Instagram and Facebook.
+\n\nWe have used the best technology interface to come up with an effective and balanced approach for you in getting the right things on board. It is about bringing you comfort. The team of professional developers having experience working on downloaders and social media platforms combined the databases for you. VidDe is designed to make your life easier and social connections stronger at the same time.
+\n\nUsing advanced technology and working on safer practices for app downloads, we are giving you this efficient app. There is no need to bulk up your phone memory with several unwanted applications. Delete the other downloaders that are taking much of space and causing you to face problems with the phone speed. VidDe is right there for you to help with smart and quick downloads automatically.
+\n\nOur motive is to provide you best benefit from our skills and creations. There is no doubt you can experience the ease of use and swift operation approach in this app. Do not be hard on yourself by having other complicated downloaders but come up with this easy alternative now.
+\n\n<big><b>Description:</b></big>
+\nAre you in search of a quick and easy video downloader for social apps? VidDe makes it easy for you to download any video available on social accounts. The application provides you with a fast and reliable way to download videos from your social sites, including Facebook, Instagram, and WhatsApp. You can quickly download and save any video from multiple social media sites with VidDe video downloader.
+\nYou can save stories and download videos by using a video URL or link. Moreover, you can download videos with a single link. Fortunate, you can directly get it into your device gallery. VidDe supports all video formats available on the internet, which helps you to save videos of all formats.
+        \n\n<big><b>How to Download Through this App?</b></big>
+
+\nDownloading videos from your social network accounts is very easy with VidDe.
+\n\n\n1.	App has a built-in video downloader. The browser visits the targeted webpage with a built-in downloader from where you want to download the video.
+\n2.	First of all, you need to play the video that you want to save. Just below the video “Download” button will appear.
+\n3.	Now press the "Download" button, and the video will start downloading on your device.
+\n4.	You can also watch the video before starting the video downloading.
+        \n\n<big><b>What is Included in This app?</b></big>
+
+        \n\n<big><b>WhatsApp Status Downloader:</b></big>
+\nVidDe lets you download videos, status, GIF, and new status feature 2021 videos from WhatsApp. You can easily save and download WhatsApp videos and status to your device gallery with our free video downloader app.
+        \n\n<big><b>Instagram Downloader:</b></big>
+\nYou can download Instagram stories, IGTV, reels, and highlight very easily with VidDe. You don’t need any extra steps to download Instagram videos. Simply click on the “Download” button right below the video to download videos and stories.
+        \n\n<big><b>Facebook Downloader:</b></big>
+\nVidDe allows you to download videos from videos and stories from Facebook. You just simply paste the Facebook video link or URL and download the video to your device. Also, you can download the Facebook app with VidDe.
+</string>
+    <string name="ter_condition_des">   There are some terms and conditions that you should follow while using the VidDe video downloader.
+\n●	Before reposting the video, try to get permission from the video owner.
+\n●	This video downloading app is not officially linked with social network platforms such as Instagram, Facebook, TikTok, WhatsApp, etc.
+\n●	We don’t have any link with any intellectual property copyright that may arise due to uncertified use of content.
+\n●	This app does not support video downloading from YouTube due to the Play Store privacy policy.
+\n●	The downloading of copyright-protected content or files is prohibited and controlled by state law.
+        \n\n\nHurry up! Download VidDe to enjoy unlimited social videos and stories downloading.
+</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hyperlink"><a style="color:red" href="https://www.instagram.com/dstud.io?r=nametag">https://www.instagram.com/dstud.io?r=nametag</a></string>
+    <string name="hyperlinkBehance"><a style="color:red" href="https://www.behance.net/dstudioo">https://www.behance.net/dstudioo</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    <string name="ad_unit_id">cca-app-pub-3940256099942544/5224354917</string>-->
+    <!--    <string name="admob_app_id">ca-app-pub-3736818881462482~5679452181</string>-->
+    <string name="ad_unit_id">cca-app-pub-3940256099942544/5224354917</string>
+    <string name="admob_app_id">ca-app-pub-3736818881462482~5679452181</string>
+    <string name="check">filename</string>
+    <string name="toast_url">Enter Correct Url</string>
+    <string name="download">Download</string>
+    <string name="business_wa">Business WA</string>
+    <string name="gb_whatsapp">Gb WhatsApp</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="screen_one">Download video through link or open social media apps directly from our app to get easy access</string>
+    <string name="screen_two">Download videos in any format from 144p to Full HD or even convert to mp3 audio</string>
+    <string name="screen_three">Enjoy the videos and share it with friends and family members</string>
+    <string name="heading_one">Download Video</string>
+    <string name="heading_two">Select video or audio quality</string>
+    <string name="heading_three">Enjoy the video with and share with friends</string>
+    <string name="download_video">Download Video</string>
+    <string name="message_for_permissions"><b>VIDDE</b> need Storage permissions to perform <b>Files Management </b> based times\nOur <b>policy</b> ensure your permissions would not be used in any <b>illegal usage</b></string>
+    <string name="message">paste <font color="#00AF60">Twitter</font> post\'s link to <font color="#00AF60">Download</font>  video below</string>
+    <string name="down_msg">Video is <font color="#00AF60">Downloading</font> please wait</string>
+    <string name="saved_status">Saved Status</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="locate_the_folder">locate The folder</string>
+
+</resources>

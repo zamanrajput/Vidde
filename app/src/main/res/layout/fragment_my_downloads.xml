@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activities.MyDownloadsFragment">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/textDownloadTv"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:text="Downloads"
+        android:textStyle="bold"
+        android:fontFamily="@font/nunito"
+
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="gone"
+        tools:listitem="@layout/item_view_downloads_android_q"
+        android:layout_width="match_parent"
+        android:id="@+id/recViewAndroidQ"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_height="match_parent"/>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/noPermissionsAndroidQ"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginBottom="100dp"
+            android:textSize="18sp"
+            android:id="@+id/msgView"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"
+            android:layout_width="wrap_content"
+            android:text="@string/permission_required"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/allPermissionBtn"
+            android:background="@drawable/new_btn_background"
+            android:layout_width="200dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/locate_the_folder"
+            android:layout_height="45dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/noFilesFound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:text="No Files Found"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:id="@+id/downloadingHeading"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Downloading" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginRight="4dp"
+
+            android:layout_marginLeft="4dp"
+            android:id="@+id/downloadingRecView"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/downloadedHeading"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Downloaded" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/downloadedRecView"
+            tools:listitem="@layout/card_view_design_downloads"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

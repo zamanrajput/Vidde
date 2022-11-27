@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".WhatsApp.WhatsAppFragments.BusinessMainWhatsAppFragment"
+    android:orientation="vertical">
+    <com.google.android.material.tabs.TabLayout
+        style="@style/CustomTabLayout"
+        android:layout_width="160dp"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:id="@+id/tabLayoutBW"
+        android:layout_height="38dp"
+        >
+        <com.google.android.material.tabs.TabItem
+
+            android:layout_width="wrap_content"
+            android:id="@+id/VideoTabBW"
+            android:background="@color/white"
+            android:text="Videos"
+            android:layout_height="38dp"/>
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:id="@+id/ImageTabBW"
+            android:text="Images"
+            android:background="@color/white"
+            android:layout_height="38dp"/>
+
+
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/ViewPagerBW"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+   android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp">
+        <ImageView
+            android:src="@drawable/dlogo"
+            android:layout_width="wrap_content"
+            android:id="@+id/thumbnailProperties"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Title "
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_weight="1.4"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fileTitle"
+            android:fontFamily="@font/nunito"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Title"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#65000000"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Type :"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_weight="1.4"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fileType"
+            android:fontFamily="@font/nunito"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Path"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#65000000"
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Path :"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_weight="1.4"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/filePath"
+            android:fontFamily="@font/nunito"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Path"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#65000000"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Size : "
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_weight="1.4"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fileSize"
+            android:fontFamily="@font/nunito"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Path"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#65000000"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Duration:"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_weight="1.4"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fileDuration"
+            android:fontFamily="@font/nunito"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Path"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#65000000"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Resolution:"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_weight="1.4"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fileResolution"
+            android:fontFamily="@font/nunito"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Path"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_weight="0.6"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#65000000"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/okBtn"
+            android:layout_width="wrap_content"
+            android:text="OK"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

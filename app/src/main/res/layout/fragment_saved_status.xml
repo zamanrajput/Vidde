@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".activities.MyDownloadsFragment">
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/noPermissionsAndroidQ"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginBottom="100dp"
+            android:textSize="18sp"
+            android:id="@+id/msgView"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"
+            android:layout_width="wrap_content"
+            android:text="@string/permission_required"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/allPermissionBtn"
+            android:background="@drawable/new_btn_background"
+            android:layout_width="200dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/locate_the_folder"
+            android:layout_height="45dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/noFilesFound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:text="No Files Found"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="4dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/savedStatusHeading"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/saved_status" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="4dp"
+            app:spanCount="3"
+            tools:listitem="@layout/saved_status_list_item"
+            android:id="@+id/savedStatusRecView"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
